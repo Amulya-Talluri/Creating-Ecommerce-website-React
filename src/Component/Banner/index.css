@@ -1,0 +1,32 @@
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-container h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+  font-family: Bree Serif;
+  color: #a71d1d;
+}
+
+.btn {
+  display: inline-block;
+  background: #a71d1d;
+  color: #fff;
+  padding: 15px 30px;
+  margin: 30px 0;
+  border-radius: 10px;
+  transition: background 0.5s;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #563434;
+}
+
+.banner-image {
+  max-width: 250px;
+}
